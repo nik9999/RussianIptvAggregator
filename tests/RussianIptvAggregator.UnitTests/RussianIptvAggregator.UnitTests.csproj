@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RussianIptvAggregator.Domain\RussianIptvAggregator.Domain.csproj" />
+    <ProjectReference Include="..\..\src\RussianIptvAggregator.Application\RussianIptvAggregator.Application.csproj" />
+    <ProjectReference Include="..\..\src\RussianIptvAggregator.Infrastructure\RussianIptvAggregator.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Moq" />
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+  </ItemGroup>
+
+</Project>
